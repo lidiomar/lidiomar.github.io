@@ -4,12 +4,11 @@ title:  "CoordinatorLayout"
 date:   2019-07-30
 ---
 
-<p class="intro"><span class="dropcap">N</span>a Google I/O 2015 foi feito o lançamento de um nova support library que contém ViewGroups como AppbarLayout, CollapsingToolbarLayout e CoordinatorLayout.</p>
+<p class="intro"><span class="dropcap">N</span>a In the 2015 Google I/O  was released the new support library that contains ViewGroups like AppBarLayout, CollapsingToolbarLayout and CoordinatorLayout.</p>
 
-ActionBar é o componente visual utilizado por padrão em aplicações android, porém recomenda-se a utilização da Toolbar na implementação da AppBar devido a sua flexibilidade e facilidade de customização.
+ActionBar is the default visual component used in Android applications, however the adoption of the AppBar component is recommended due your flexibility and easy customization.
 
-CoordinatorLayout por sua vez é o componente responsável por realizar muitos dos efeitos de scroll definidos no material design, atualmente existem diversas formas de utiliza-lo juntamente com a app bar. 
-O objetivo desse post é mostrar alguns exemplos de utilização destes componentes, bem como a exploração de algumas de suas propriedades.
+On the other hand, CoordinatorLayout is the component responsible to acomplishing many of the scroll effects defined on material design guidelines. Nowadays there are many ways of your utilization with the App bar. The purpose of this post is to show some examples of using these components, as well as exploring some of their properties.
 
 # Expandindo e contraindo a Toolbar:
 
