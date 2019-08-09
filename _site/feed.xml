@@ -5,25 +5,54 @@
     <description>Long Form Jekyll theme built with SASS / COMPASS / SUSY</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jul 2019 09:23:49 -0300</pubDate>
-    <lastBuildDate>Tue, 30 Jul 2019 09:23:49 -0300</lastBuildDate>
+    <pubDate>Fri, 09 Aug 2019 16:29:33 -0300</pubDate>
+    <lastBuildDate>Fri, 09 Aug 2019 16:29:33 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       
       <item>
+        <title>Redimensionando imagens no Android</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;O&lt;/span&gt; Android disponibiliza muitas opções para o ajuste e redimensionamento de imagens através do componente ImageView.&lt;/p&gt;
+
+&lt;p&gt;Uma ImageView pode ser ajustada por meio da propriedade scaleType com os atributos: CENTER, CENTER_CROP, CENTER_INSIDE,  FIT_CENTER, FIT_END, FIT_START, FIT_XY, MATRIX.&lt;/p&gt;
+
+&lt;p&gt;O objetivo deste post é apresentar um pequeno projeto no qual é possível enviar uma imagem e visualizar os resultados de redimensionamento para cada um dos atributos.&lt;/p&gt;
+
+&lt;h1 id=&quot;imagem-apresentada-nos-diferentes-tipos-de-escala&quot;&gt;Imagem apresentada nos diferentes tipos de escala:&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/imageScaled.gif&quot; alt=&quot;&quot; style=&quot;margin:0 auto; display:block;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O projeto de exemplo pode ser baixado do Github: &lt;a href=&quot;https://github.com/lidiomar/android-image-scale-type&quot; target=&quot;blank&quot;&gt;https://github.com/lidiomar/android-image-scale-type&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;O&lt;/span&gt; Android disponibiliza muitas opções para o ajuste e redimensionamento de imagens através do componente ImageView.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 09 Aug 2019 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/blog/image-scale-type/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/image-scale-type/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
         <title>CoordinatorLayout</title>
-        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;N&lt;/span&gt;a Google I/O 2015 foi feito o lançamento de um nova support library que contém ViewGroups como AppbarLayout, CollapsingToolbarLayout e CoordinatorLayout.&lt;/p&gt;
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;I&lt;/span&gt;n the 2015 Google I/O  was released the new support library that contains ViewGroups like AppBarLayout, CollapsingToolbarLayout and CoordinatorLayout.&lt;/p&gt;
 
-&lt;p&gt;ActionBar é o componente visual utilizado por padrão em aplicações android, porém recomenda-se a utilização da Toolbar na implementação da AppBar devido a sua flexibilidade e facilidade de customização.&lt;/p&gt;
+&lt;p&gt;ActionBar is the default visual component used in Android applications, however the adoption of the AppBar component is recommended due your flexibility and easy customization.&lt;/p&gt;
 
-&lt;p&gt;CoordinatorLayout por sua vez é o componente responsável por realizar muitos dos efeitos de scroll definidos no material design, atualmente existem diversas formas de utiliza-lo juntamente com a app bar. 
-O objetivo desse post é mostrar alguns exemplos de utilização destes componentes, bem como a exploração de algumas de suas propriedades.&lt;/p&gt;
+&lt;p&gt;On the other hand, CoordinatorLayout is the component responsible to acomplishing many of the scroll effects defined on
+material design guidelines. Nowadays there are many ways of your utilization with the App bar. The purpose of this post is to show some examples of using these components, as well as exploring some of their properties.&lt;/p&gt;
 
-&lt;h1 id=&quot;expandindo-e-contraindo-a-toolbar&quot;&gt;Expandindo e contraindo a Toolbar:&lt;/h1&gt;
+&lt;h1 id=&quot;toolbar-expanding-and-shrinking&quot;&gt;Toolbar: Expanding and Shrinking&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/coordinator.gif&quot; alt=&quot;&quot; style=&quot;margin:0 auto; display:block;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;CoordinatorLayout, juntamente com CollapsingToolbarLayout é frequentemente utilizado para dar o efeito de esconder e mostrar a AppBar. O código abaixo apresenta a implementação desse comportamento:&lt;/p&gt;
+&lt;p&gt;CoordinatorLayout, along with CollapsingToolbarLayout is often used to give AppBar the hide and show effect. The code
+below presents the implementation of this behavior:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;android.support.design.widget.CoordinatorLayout&lt;/span&gt;
         &lt;span class=&quot;na&quot;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://schemas.android.com/apk/res/android&quot;&lt;/span&gt;
@@ -77,7 +106,7 @@ O objetivo desse post é mostrar alguns exemplos de utilização destes componen
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         
-          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;N&lt;/span&gt;a Google I/O 2015 foi feito o lançamento de um nova support library que contém ViewGroups como AppbarLayout, CollapsingToolbarLayout e CoordinatorLayout.&lt;/p&gt;
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;I&lt;/span&gt;n the 2015 Google I/O  was released the new support library that contains ViewGroups like AppBarLayout, CollapsingToolbarLayout and CoordinatorLayout.&lt;/p&gt;
 
 </description>
         

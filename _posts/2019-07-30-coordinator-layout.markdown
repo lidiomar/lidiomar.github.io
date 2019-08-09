@@ -4,18 +4,19 @@ title:  "CoordinatorLayout"
 date:   2019-07-30
 ---
 
-<p class="intro"><span class="dropcap">N</span>a In the 2015 Google I/O  was released the new support library that contains ViewGroups like AppBarLayout, CollapsingToolbarLayout and CoordinatorLayout.</p>
+<p class="intro"><span class="dropcap">I</span>n the 2015 Google I/O  was released the new support library that contains ViewGroups like AppBarLayout, CollapsingToolbarLayout and CoordinatorLayout.</p>
 
 ActionBar is the default visual component used in Android applications, however the adoption of the AppBar component is recommended due your flexibility and easy customization.
 
-On the other hand, CoordinatorLayout is the component responsible to acomplishing many of the scroll effects defined on material design guidelines. Nowadays there are many ways of your utilization with the App bar. The purpose of this post is to show some examples of using these components, as well as exploring some of their properties.
+On the other hand, CoordinatorLayout is the component responsible to acomplishing many of the scroll effects defined on
+material design guidelines. Nowadays there are many ways of your utilization with the App bar. The purpose of this post is to show some examples of using these components, as well as exploring some of their properties.
 
-# Expandindo e contraindo a Toolbar:
+# Toolbar: Expanding and Shrinking
 
 <img src="{{ '/assets/img/coordinator.gif' | prepend: site.baseurl }}" alt="" style="margin:0 auto; display:block;"> 
 
-CoordinatorLayout, juntamente com CollapsingToolbarLayout é frequentemente utilizado para dar o efeito de esconder e mostrar a AppBar. O código abaixo apresenta a implementação desse comportamento:
-
+CoordinatorLayout, along with CollapsingToolbarLayout is often used to give AppBar the hide and show effect. The code
+below presents the implementation of this behavior:
 
 {% highlight xml %}
 <android.support.design.widget.CoordinatorLayout
